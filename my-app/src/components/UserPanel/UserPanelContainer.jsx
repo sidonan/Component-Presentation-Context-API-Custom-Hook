@@ -1,4 +1,4 @@
-import UserPanel from "./UserPanel"; // ✅ Экспорт по умолчанию должен быть
+import UserPanel from "./UserPanel"; 
 
 
 

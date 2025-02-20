@@ -5,7 +5,7 @@ export const useLikes = () => {
     const { likes, setLikes } = useContext(LikesContext);
 
     const addLike = () => {
-        setLikes(likes + 1); // ✅ Увеличиваем лайки на 1
+        setLikes(likes + 1); 
     };
 
     return { likes, addLike };

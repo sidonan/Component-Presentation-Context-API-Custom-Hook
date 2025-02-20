@@ -10,8 +10,8 @@ const translations = { en, ru };
 const UserPanel = () => {
     const { theme, toggleTheme } = useTheme();
     const { language, toggleLanguage } = useLanguage();
-    const { likes, addLike } = useLikes(); // ✅ Используем `addLike` вместо `toggleLike`
-    const t = translations[language] || en; // ✅ Гарантируем, что перевод всегда есть
+    const { likes, addLike } = useLikes();
+    const t = translations[language] || en; 
 
     return (
         <div className={`panel ${theme}`}>
