@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.panel {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  margin: 20px auto;
+  box-shadow: #9e9d9d 0 5px 10px;
+  
+  
+}
+.light {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+}
+.dark {
+  background: #222;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+button {
+  
+  margin: 5px ;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
